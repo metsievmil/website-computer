@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.x.x/css/all.min.css" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/cv.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', ()=>{
+            //PRODUCT CARDS DISPLAY
+            let ProductcardcontainerWidth = document.querySelector('.Product-cards-container').offsetWidth;
+            let ProductcardWidth=260;
+            let ProductcardsPerRow=Math.floor(ProductcardcontainerWidth/(ProductCardWidth +10));
+            let marginSpacing=(ProductcardcontainerWidth - (ProductcardsPerRow*ProductcardWidth))/ (ProductcardsPerRow-1)
+
+            let lastElement=ProductcardsPerRow-1;
+            let ProductCards;
+
+            let Productsection=document.querySelectorAll('.product-section');
+            Productsection.forEach((section) =>{
+                ProductCards=section.querySelectorAll('.product-card');
+
+                for(let i=0; i<ProductcardsPerRow; i++){
+                    ProductCards[i].classList.add('active');
+
+                    if (i== lastElement){
+                        ProductCards[i].style.marginRight='0px';
+                    }
+                    else{
+                        ProductCards[i].style.marginRight=' ${marginSpacing}px';
+                    }
+                }
+            })
+//Adding itens to seshlist
+        let wishListCount=document.querySelector('#wishlist-link span');
+        let heartbutton=document.querySelectorAll('.heart-button');
+        heartbutton.forEach((button) => {
+            button.addEventListener('click', ()=>{
+                button.classList.add('active');
+
+                wishListCount.innerHTML=document.querySelectorAll('.heart-button.active').length;
+
+            })
+        })
+
+        })
+    </script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="C:\Users\as\Downloads\pngwing.com - 2024-11-29T235431.228.png" >
+    </div>
+    <nav>
+        <a href="index.html">HOME</a>
+        <div class="dropdown">
+            <a href="Productweb2.html">PRODUCTS</a>
+            <div class="dropdown-content">
+                <a href="Productleptop.html">Leptop</a>
+                <a href="productmuos.html">Mouse</a>
+                <a href="productkeybord.html">Key baord</a>
+                <a href="produtkhesmonitor.html">Corsair Gaming PC</a>
+                <a href="productpower.html">Power supply</a>
+                <a href="productram.html">Ram</a>
+                <a href="productbord.html">Motherboard</a>
+            </div>
+        </div>
+        <a href="Servicse22.html">SERVICES</a>
+        <a href="About22.html">ABOUT</a>
+        <a href="gg.html">CONTACT</a>
+    </nav>
+    <div class="icons">
+      <div class="search-container">
+        <input type="text" placeholder="Search..." class="search-bar">
+        <button class="search-btn">&#128269;</button>
+      </div>
+      <div class="si">
+        <i class="fa-brands fa-shopify"></i>
+        
+      <!--<i class="fa-brands fa-shopify"></i>-->
+    </div>
+    </div>
+</header>
+
+<!----Main body--->
+
+<!----Product Categories------->
+
+<script src="script.js"></script>
+
+<di class="hg">
+  <h3>sj</h3>
+  <h3>sj</h3>
+  <h3>sj</h3>
+  <h5>sj</h5>
+  
+</di>
+<div class="modelll">
+  <img src="../Img/benerkhes.png">
+</div>
+
+</div>
+
+
+
+<div class="all-itempi">
+  <div class="picc">
+    <img src="../Img/modbener6.png">
+    
+  </div>
+  <div class="productpi">
+    <div class="bacck">
+      <div class="img">
+        <img src="../Img/khes1.png">
+      </div>
+      <div class="star">
+        <div class="instock">
+          <div class="st">
+            <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="instock">
+                      <p>Instock</p>
+                    </div>     
+      </div>
+      <div class="pee">
+  <p>EX DISPLAY : MSI Pro 16 <br>
+    Flex-036AU 15.6 MULTITOUCH <br>
+    All-In-On...</p>
+    <div class="peess">
+      <h4>$499.00</h4>
+      <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+</div>
+    </div>
+  </div>
+  <div class="bacck">
+    <div class="img">
+      <img src="../Img/khes2.png">
+    </div>
+    <div class="star">
+      <div class="instock">
+        <div class="st">
+          <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="instock">
+                    <p>Instock</p>
+                  </div>     
+    </div>
+    <div class="pee">
+    <p>EX DISPLAY : MSI Pro 16 <br>
+      Flex-036AU 15.6 MULTITOUCH <br>
+      All-In-On...</p>
+      <div class="peess">
+        <h4>$499.00</h4>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+</div>
+  </div>
+</div>
+<div class="bacck">
+  <div class="img">
+    <img src="../Img/khes3.png">
+  </div>
+  <div class="star">
+    <div class="instock">
+      <div class="st">
+        <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="instock">
+                  <p>Instock</p>
+                </div>     
+  </div>
+  <div class="pee">
+  <p>EX DISPLAY : MSI Pro 16 <br>
+    Flex-036AU 15.6 MULTITOUCH <br>
+    All-In-On...</p>
+    <div class="peess">
+      <h4>$499.00</h4>
+      <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+</div>
+</div>
+</div>
+<div class="bacck">
+  <div class="img">
+    <img src="../Img/khes4.png">
+  </div>
+  <div class="star">
+    <div class="instock">
+      <div class="st">
+        <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="instock">
+                  <p>Instock</p>
+                </div>     
+  </div>
+  <div class="pee">
+  <p>EX DISPLAY : MSI Pro 16 <br>
+    Flex-036AU 15.6 MULTITOUCH <br>
+    All-In-On...</p>
+    <div class="peess">
+  <h4>$499.00</h4>
+  <i class="fa-solid fa-cart-shopping"></i>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+
+
+
+<div class="all-itempi">
+  <div class="picc">
+    <img src="../Img/modbener6.png">
+    
+  </div>
+  <div class="productpi">
+    <div class="bacck">
+      <div class="img">
+        <img src="../Img/khes1.png">
+      </div>
+      <div class="star">
+        <div class="instock">
+          <div class="st">
+            <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="instock">
+                      <p>Instock</p>
+                    </div>     
+      </div>
+      <div class="pee">
+  <p>EX DISPLAY : MSI Pro 16 <br>
+    Flex-036AU 15.6 MULTITOUCH <br>
+    All-In-On...</p>
+    <div class="peess">
+      <h4>$499.00</h4>
+      <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+</div>
+    </div>
+  </div>
+  <div class="bacck">
+    <div class="img">
+      <img src="../Img/khes2.png">
+    </div>
+    <div class="star">
+      <div class="instock">
+        <div class="st">
+          <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="instock">
+                    <p>Instock</p>
+                  </div>     
+    </div>
+    <div class="pee">
+    <p>EX DISPLAY : MSI Pro 16 <br>
+      Flex-036AU 15.6 MULTITOUCH <br>
+      All-In-On...</p>
+      <div class="peess">
+        <h4>$499.00</h4>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+</div>
+  </div>
+</div>
+<div class="bacck">
+  <div class="img">
+    <img src="../Img/khes3.png">
+  </div>
+  <div class="star">
+    <div class="instock">
+      <div class="st">
+        <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="instock">
+                  <p>Instock</p>
+                </div>     
+  </div>
+  <div class="pee">
+  <p>EX DISPLAY : MSI Pro 16 <br>
+    Flex-036AU 15.6 MULTITOUCH <br>
+    All-In-On...</p>
+    <div class="peess">
+      <h4>$499.00</h4>
+      <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+</div>
+</div>
+</div>
+<div class="bacck">
+  <div class="img">
+    <img src="../Img/khes4.png">
+  </div>
+  <div class="star">
+    <div class="instock">
+      <div class="st">
+        <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="instock">
+                  <p>Instock</p>
+                </div>     
+  </div>
+  <div class="pee">
+  <p>EX DISPLAY : MSI Pro 16 <br>
+    Flex-036AU 15.6 MULTITOUCH <br>
+    All-In-On...</p>
+    <div class="peess">
+  <h4>$499.00</h4>
+  <i class="fa-solid fa-cart-shopping"></i>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+
+<div class="all-itempi">
+  <div class="picc">
+    <img src="../Img/modbener6.png">
+    
+  </div>
+  <div class="productpi">
+    <div class="bacck">
+      <div class="img">
+        <img src="../Img/khes1.png">
+      </div>
+      <div class="star">
+        <div class="instock">
+          <div class="st">
+            <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="instock">
+                      <p>Instock</p>
+                    </div>     
+      </div>
+      <div class="pee">
+  <p>EX DISPLAY : MSI Pro 16 <br>
+    Flex-036AU 15.6 MULTITOUCH <br>
+    All-In-On...</p>
+    <div class="peess">
+      <h4>$499.00</h4>
+      <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+</div>
+    </div>
+  </div>
+  <div class="bacck">
+    <div class="img">
+      <img src="../Img/khes2.png">
+    </div>
+    <div class="star">
+      <div class="instock">
+        <div class="st">
+          <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="instock">
+                    <p>Instock</p>
+                  </div>     
+    </div>
+    <div class="pee">
+    <p>EX DISPLAY : MSI Pro 16 <br>
+      Flex-036AU 15.6 MULTITOUCH <br>
+      All-In-On...</p>
+      <div class="peess">
+        <h4>$499.00</h4>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+</div>
+  </div>
+</div>
+<div class="bacck">
+  <div class="img">
+    <img src="../Img/khes3.png">
+  </div>
+  <div class="star">
+    <div class="instock">
+      <div class="st">
+        <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="instock">
+                  <p>Instock</p>
+                </div>     
+  </div>
+  <div class="pee">
+  <p>EX DISPLAY : MSI Pro 16 <br>
+    Flex-036AU 15.6 MULTITOUCH <br>
+    All-In-On...</p>
+    <div class="peess">
+      <h4>$499.00</h4>
+      <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+</div>
+</div>
+</div>
+<div class="bacck">
+  <div class="img">
+    <img src="../Img/khes4.png">
+  </div>
+  <div class="star">
+    <div class="instock">
+      <div class="st">
+        <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="instock">
+                  <p>Instock</p>
+                </div>     
+  </div>
+  <div class="pee">
+  <p>EX DISPLAY : MSI Pro 16 <br>
+    Flex-036AU 15.6 MULTITOUCH <br>
+    All-In-On...</p>
+    <div class="peess">
+  <h4>$499.00</h4>
+  <i class="fa-solid fa-cart-shopping"></i>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+
+
+
+<div class="all-itempi">
+  <div class="picc">
+    <img src="../Img/modbener6.png">
+    
+  </div>
+  <div class="productpi">
+    <div class="bacck">
+      <div class="img">
+        <img src="../Img/khes1.png">
+      </div>
+      <div class="star">
+        <div class="instock">
+          <div class="st">
+            <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="instock">
+                      <p>Instock</p>
+                    </div>     
+      </div>
+      <div class="pee">
+  <p>EX DISPLAY : MSI Pro 16 <br>
+    Flex-036AU 15.6 MULTITOUCH <br>
+    All-In-On...</p>
+    <div class="peess">
+      <h4>$499.00</h4>
+      <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+</div>
+    </div>
+  </div>
+  <div class="bacck">
+    <div class="img">
+      <img src="../Img/khes2.png">
+    </div>
+    <div class="star">
+      <div class="instock">
+        <div class="st">
+          <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="instock">
+                    <p>Instock</p>
+                  </div>     
+    </div>
+    <div class="pee">
+    <p>EX DISPLAY : MSI Pro 16 <br>
+      Flex-036AU 15.6 MULTITOUCH <br>
+      All-In-On...</p>
+      <div class="peess">
+        <h4>$499.00</h4>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+</div>
+  </div>
+</div>
+<div class="bacck">
+  <div class="img">
+    <img src="../Img/khes3.png">
+  </div>
+  <div class="star">
+    <div class="instock">
+      <div class="st">
+        <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="instock">
+                  <p>Instock</p>
+                </div>     
+  </div>
+  <div class="pee">
+  <p>EX DISPLAY : MSI Pro 16 <br>
+    Flex-036AU 15.6 MULTITOUCH <br>
+    All-In-On...</p>
+    <div class="peess">
+      <h4>$499.00</h4>
+      <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+</div>
+</div>
+</div>
+<div class="bacck">
+  <div class="img">
+    <img src="../Img/khes4.png">
+  </div>
+  <div class="star">
+    <div class="instock">
+      <div class="st">
+        <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="instock">
+                  <p>Instock</p>
+                </div>     
+  </div>
+  <div class="pee">
+  <p>EX DISPLAY : MSI Pro 16 <br>
+    Flex-036AU 15.6 MULTITOUCH <br>
+    All-In-On...</p>
+    <div class="peess">
+  <h4>$499.00</h4>
+  <i class="fa-solid fa-cart-shopping"></i>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+
+
+<!--<div class="lo">
+  <div class="ppd">
+    <img src="s">
+    <p>own it now, up to 6 months interest free learn more</p>
+  </div>-->
+</div>
+<!--<div class="lo">
+    
+  <div class="ppd">
+    <img src="s">
+    <p>own it now, up to 6 months interest free learn more</p>-->
+
+<!---------model---------->
+<div class="modell">
+  <img src="../Img/benerhome3.png">
+</div>
+<!-----------------------followw------------------->
+<div class="follow">
+  <h3>Follow us on Instagram for News, Offers & More</h3>
+</div>
+
+<div class="follow-all">
+  <div class="follow-pic">
+    <img src="../Img/pichome1.png">
+    <P>If you’ve recently made a <br>desktop PC or laptop <br>
+      purchase, you might want to <br>
+      consider adding peripherals to <br>
+      enhance your home office <br>
+      setup, your gaming rig, or your <br>
+      business workspace...</P>
+  </div>
+  <div class="follow-pic">
+    <img src="../Img/pichome2.png">
+    <P>If you’ve recently made a <br>desktop PC or laptop <br>
+      purchase, you might want to <br>
+      consider adding peripherals to <br>
+      enhance your home office <br>
+      setup, your gaming rig, or your <br>
+      business workspace...</P>
+  </div>
+  <div class="follow-pic">
+    <img src="../Img/pichome3.png">
+    <P>If you’ve recently made a <br>desktop PC or laptop <br>
+      purchase, you might want to <br>
+      consider adding peripherals to <br>
+      enhance your home office <br>
+      setup, your gaming rig, or your <br>
+      business workspace...</P>
+  </div>
+  <div class="follow-pic">
+    <img src="../Img/pichome4.png">
+    <P>If you’ve recently made a <br>desktop PC or laptop <br>
+      purchase, you might want to <br>
+      consider adding peripherals to <br>
+      enhance your home office <br>
+      setup, your gaming rig, or your <br>
+      business workspace...</P>
+  </div>
+  <div class="follow-pic">
+    <img src="../Img/pichome5.png">
+    <P>If you’ve recently made a <br>desktop PC or laptop <br>
+      purchase, you might want to <br>
+      consider adding peripherals to <br>
+      enhance your home office <br>
+      setup, your gaming rig, or your <br>
+      business workspace...</P>
+  </div>
+  
+</div>
+
+
+
+<!----------------singe---------------------->
+<div class="bacck-sign">
+  <div class="sig-all">
+    <div class="sign">
+      <h1>Sign Up To Our Newsletter.</h1>
+      <p>Be the first hear about the latest offers.</p>
+    </div>
+      <div class="search">
+        <input type="text" placeholder="Your Email...">
+        <button>Subscriber</button>
+    </div>
+  </div>
+<div class="dis">
+<div class="In-all">
+  <div class="inform">
+    <h4>Information</h4>
+  </div>
+  <div class="about1">
+    <ul>
+      <li>About Us</li>
+      <li>About Zip</li>
+      <li>Privacy Policy</li>
+      <li>Search</li>
+      <li>Terms</li>
+      <li>Orders and Returns</li>
+      <li>Contact Us</li>
+      <li>Advanced Search</li>
+      <li>Newsletter Subscription</li>
+    </ul>
+  </div>
+</div>
+<div class="In-all">
+  <div class="inform">
+    <h4>Information</h4>
+  </div>
+  <div class="about1">
+    <ul>
+      <li>CPUS</li>
+      <li>Hard Drives (Internal)
+      </li>
+      <li>Graphic Cards</li>
+      <li>Keyboards / Mice</li>
+      <li>Cases / Power Supplies / Cooling</li>
+      <li>RAM (Memory)
+      </li>
+      <li>Software</li>
+      <li>Speakers / Headsets</li>
+      <li>Motherboards</li>
+    </ul>
+  </div>
+</div>
+<div class="In-all">
+  <div class="inform">
+    <h4>Information</h4>
+  </div>
+  <div class="about1">
+    <ul>
+      <li>Custom PCs</li>
+      <li>Servers</li>
+      <li>MSI All-In-One PCs
+      </li>
+      <li>HP/Compaq PCs
+      </li>
+      <li>ASUS PCs
+      </li>
+      <li>Tecs PCs</li>
+      <li>About Us</li>
+      <li>About Us</li>
+      <li>About Us</li>
+    </ul>
+  </div>
+</div>
+<div class="In-all">
+  <div class="inform">
+    <h4>Information</h4>
+  </div>
+  <div class="about1">
+    <ul>
+      <li>Evryday Use Notebooks
+      </li>
+      <li>MSI Workstation Series
+      </li>
+      <li>MSI Prestige Series
+      </li>
+      <li>Tablets and Pads</li>
+      <li>Netbooks</li>
+      <li>Infinity Gaming Notebooks</li>
+      <li>About Us</li>
+      <li>About Us</li>
+      <li>About Us</li>
+    </ul>
+  </div>
+</div>
+<div class="In-all">
+  <div class="inform">
+    <h4>Information</h4>
+  </div>
+  <div class="about1">
+    <ul>
+      <li>Address: 1234 Street Adress City Address, 1234</li>
+      <li>Phones: (00) 1234 5678</li>
+      <li>We are open: Monday-Thursday: 9:00 AM - 5:30 PM</li>
+      <li>Friday: 9:00 AM - 6:00 PM</li>
+      <li>Saturday: 11:00 AM - 5:00 PM</li>
+      <li>E-mail: shop@email.com</li>
+      <li>About Us</li>
+      <li>About Us</li>
+      <li>About Us</li>
+    </ul>
+  </div>
+</div>
+</div>
+
+<div class="bxx">
+  <p></p>
+</div>
+
+<div class="icon-all">
+  <div class="pic1">
+    <img src="C:\Users\as\Desktop\pictur Website\pngwing.com - 2025-01-04T163431.479.png">
+    <img src="C:\Users\as\Desktop\pictur Website\pngwing.com - 2025-01-04T163308.604.png">
+    <img src="C:\Users\as\Desktop\pictur Website\pngwing.com (78).png">
+    <img src="C:\Users\as\Desktop\pictur Website\pngwing.com (74).png">
+  </div>
+  <div class="pic2">
+    <img src="C:\Users\as\Downloads\pay.png">
+   
+  </div>
+  <div class="pic3">
+    <p>Feackbookpage</p>
+  </div>
+</div>
+
+</div>

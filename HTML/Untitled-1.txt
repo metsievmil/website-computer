@@ -1,0 +1,243 @@
+<div class="all-itempi">
+  <div class="picc">
+    <img src="../Img/modmouse1.png">
+    
+  </div>
+  <div class="productpi">
+    <div class="bacck">
+      <div class="img">
+        <img src="../Img/mouse1.png">
+      </div>
+      <div class="star">
+        <div class="instock">
+          <div class="st">
+            <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="instock">
+                      <p>Instock</p>
+                    </div>     
+      </div>
+      <div class="pee">
+  <p>EX DISPLAY : MSI Pro 16 <br>
+    Flex-036AU 15.6 MULTITOUCH <br>
+    All-In-On...</p>
+    <div class="peess">
+      <h4>$499.00</h4>
+      <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+</div>
+    </div>
+  </div>
+  <div class="bacck">
+    <div class="img">
+      <img src="../Img/mouse2.png">
+    </div>
+    <div class="star">
+      <div class="instock">
+        <div class="st">
+          <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="instock">
+                    <p>Instock</p>
+                  </div>     
+    </div>
+    <div class="pee">
+    <p>EX DISPLAY : MSI Pro 16 <br>
+      Flex-036AU 15.6 MULTITOUCH <br>
+      All-In-On...</p>
+      <div class="peess">
+        <h4>$499.00</h4>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+</div>
+  </div>
+</div>
+<div class="bacck">
+  <div class="img">
+    <img src="../Img/mouse3.png">
+  </div>
+  <div class="star">
+    <div class="instock">
+      <div class="st">
+        <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="instock">
+                  <p>Instock</p>
+                </div>     
+  </div>
+  <div class="pee">
+  <p>EX DISPLAY : MSI Pro 16 <br>
+    Flex-036AU 15.6 MULTITOUCH <br>
+    All-In-On...</p>
+    <div class="peess">
+      <h4>$499.00</h4>
+      <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+</div>
+</div>
+</div>
+<div class="bacck">
+  <div class="img">
+    <img src="../Img/mouse4.png">
+  </div>
+  <div class="star">
+    <div class="instock">
+      <div class="st">
+        <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="instock">
+                  <p>Instock</p>
+                </div>     
+  </div>
+  <div class="pee">
+  <p>EX DISPLAY : MSI Pro 16 <br>
+    Flex-036AU 15.6 MULTITOUCH <br>
+    All-In-On...</p>
+    <div class="peess">
+  <h4>$499.00</h4>
+  <i class="fa-solid fa-cart-shopping"></i>
+</div>
+</div>
+</div>
+</div>
+  </div>
+</div>
+
+
+
+<div class="all-itempi">
+    <div class="picc">
+      <img src="../Img/modmouse1.png">
+      
+    </div>
+    <div class="productpi">
+      <div class="bacck">
+        <div class="img">
+          <img src="../Img/mouse5.png">
+        </div>
+        <div class="star">
+          <div class="instock">
+            <div class="st">
+              <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="instock">
+                        <p>Instock</p>
+                      </div>     
+        </div>
+        <div class="pee">
+    <p>EX DISPLAY : MSI Pro 16 <br>
+      Flex-036AU 15.6 MULTITOUCH <br>
+      All-In-On...</p>
+      <div class="peess">
+        <h4>$499.00</h4>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+  </div>
+      </div>
+    </div>
+    <div class="bacck">
+      <div class="img">
+        <img src="../Img/mouse6.png">
+      </div>
+      <div class="star">
+        <div class="instock">
+          <div class="st">
+            <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="instock">
+                      <p>Instock</p>
+                    </div>     
+      </div>
+      <div class="pee">
+      <p>EX DISPLAY : MSI Pro 16 <br>
+        Flex-036AU 15.6 MULTITOUCH <br>
+        All-In-On...</p>
+        <div class="peess">
+          <h4>$499.00</h4>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+  </div>
+    </div>
+  </div>
+  <div class="bacck">
+    <div class="img">
+      <img src="../Img/mouse7.png">
+    </div>
+    <div class="star">
+      <div class="instock">
+        <div class="st">
+          <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="instock">
+                    <p>Instock</p>
+                  </div>     
+    </div>
+    <div class="pee">
+    <p>EX DISPLAY : MSI Pro 16 <br>
+      Flex-036AU 15.6 MULTITOUCH <br>
+      All-In-On...</p>
+      <div class="peess">
+        <h4>$499.00</h4>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+  </div>
+  </div>
+  </div>
+  <div class="bacck">
+    <div class="img">
+      <img src="../Img/mouse8.png">
+    </div>
+    <div class="star">
+      <div class="instock">
+        <div class="st">
+          <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="instock">
+                    <p>Instock</p>
+                  </div>     
+    </div>
+    <div class="pee">
+    <p>EX DISPLAY : MSI Pro 16 <br>
+      Flex-036AU 15.6 MULTITOUCH <br>
+      All-In-On...</p>
+      <div class="peess">
+    <h4>$499.00</h4>
+    <i class="fa-solid fa-cart-shopping"></i>
+  </div>
+  </div>
+  </div>
+  </div>
+    </div>
+  </div>

@@ -1,0 +1,2216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.x.x/css/all.min.css" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(251, 249, 249);
+}
+
+/*jasflasflafj*/
+
+
+
+/*--------------------Product eviiiii-----------------*/
+
+/*--------vv--------*/
+.nav-links li{
+    gap:  60px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    -webkit-font-smoothing: an;
+}
+.nav-links a:hover {
+    background-color: rgb(24, 212, 187);
+    border-radius: 5px;
+}
+.navbar-tools{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+}
+.navbar-tools a{
+    display: flex;
+    place-items: center;
+}
+.navbar-tools span{
+    background-color: red;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    position: relative;
+    bottom: 8px;
+    right: 4px;
+}
+.wishlist-link{
+    margin-left: 15px;
+}
+.Product-page-body{
+    padding: 0 100px;
+    
+}
+.Product-top-container{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.Product-top-wrapper{
+    background-color: #edf2fb;
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+    padding:100px ;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    justify-content: space-between;
+}
+.Product-top-text-section{
+    width: 52%;
+}
+.Product-top-text-section h1{
+    color: rgb(64, 64, 64);
+    font-size: 23px;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+}
+.Product-top-text-section h2{
+    color: rgb(64, 64, 64);
+    font-size: 23px;
+    font-weight: 500;
+}
+.Product-top-text-section p{
+    color: rgb(137, 137, 137);
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    line-height: 1.7;
+}
+.blue-button{
+    background-color: #090df0;
+    color: #edf2fb;
+    font-size: 16px;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    transition: 0.3s ease-in-out;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+.blue-button:hover{
+    background-color: rgb(102, 136, 240);
+}
+
+.Product-top-imge-section{
+   /*-- background-color:#0c4ccb;
+    width: 440px;
+    height: 440px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);*/
+}
+.Product-top-imge-section img{
+    width: 60%;
+    height: auto;
+}
+.Product-top-imge-section:hover{
+    animation: shake 0.5s linear infinite;
+    cursor: pointer;
+}
+@keyframes shake{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(3deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+}
+.hhh h1{
+    margin-left: 105px;
+    color: #181819;
+    font-family: 'Trebuchet MS', sans-serif;
+    
+}
+
+/*Product Categories*/
+
+/* PRODUCTS */
+.product {
+    position: relative;
+    overflow: hidden;
+    justify-content: space-between;
+    width: 100%;
+    height: 400px;
+    margin-top: 15px;
+  }
+  
+  .product-category {
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 80px;
+    text-transform: capitalize;
+  }
+  
+  .product-container {
+    padding: 0 10vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    margin-right: 25px;
+    margin-top: 18px;
+    gap: 10px;
+   
+ 
+  }
+  .product-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .product-card {
+    flex: 0 10 auto;
+    width: 250px;
+    height: 450px;
+    margin-right: 62px;
+    
+
+  }
+  
+  .product-image {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    margin-top: 35px;
+  }
+  .product-image img{
+    background-color: #949aa4;
+    border-radius: 4px;
+    padding: 5px;
+    width: 170px;
+   
+  }
+  .product-image img:hover{
+     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+  .modelll img{
+    justify-content: center;
+    place-items: center;
+    display: flex;
+    margin-left: 110px;
+    width: 1300px;
+    margin-top: 10px;
+}
+  /*------------Product Computer--------------*/
+  
+  
+  .product-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .discount-tag {
+    position: absolute;
+    background: #f60505;
+    padding: 5px;
+    border-radius: 5px;
+    color: #ff7d7d;
+    right: 10px;
+    top: 10px;
+    text-transform: capitalize;
+  }
+  
+  .card-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    width: 100%;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0;
+  }
+  
+  .product-card:hover .card-btn {
+    opacity: 1;
+  }
+  
+  .card-btn:hover {
+    background: #ff7d7d;
+    color: #e33232;
+  }
+  
+  .product-info {
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+  }
+  .product-info h2{
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(156, 156, 243);
+  }
+  .product-brand {
+    text-transform: uppercase;
+  }
+  
+  .product-short-description {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    opacity: 0.5;
+    text-transform: capitalize;
+    margin: 5px 0;
+  }
+  
+  .price {
+    font-weight: 900;
+    font-size: 20px;
+  }
+  
+  .actual-price {
+    margin-left: 20px;
+    opacity: 0.5;
+    text-decoration: line-through;
+  }
+
+  .hhh p{
+   margin-left: 105px;
+   font-size: 40px;
+   margin-top: 27px;
+  }
+  /*-------------Products:-----------------*/
+  .pre-btn,
+  .nxt-btn {
+    border: none;
+    width: 7vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 8;
+    background-color: rgb(251, 249, 249);
+    border-radius: 0px;
+  }
+  
+  .pre-btn {
+    left: 0;
+    transform: rotate(180deg);
+  }
+  
+  .nxt-btn {
+    right: 0;
+  }
+  
+  .pre-btn img,
+  .nxt-btn img {
+    opacity: 0.2;
+    width: 50px;
+    height: 50px;
+    
+  }
+  
+  .pre-btn:hover img,
+  .nxt-btn:hover img {
+    opacity: 1;
+   
+  }
+
+  .nxt-btn:hover img button:hover{
+    color: #195fe0;
+  }
+  
+  .collection-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .collection {
+    position: relative;
+  }
+  
+  .collection img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .collection p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    text-transform: capitalize;
+  }
+  
+  .collection:nth-child(3) {
+    grid-column: span 2;
+    margin-bottom: 10px;
+  }
+  .New{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 20px;
+  }
+/*------------Product Computer------------*/
+.Product-allitem{
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.Product-computer{
+    padding: 45px;
+    margin-top: 80px;
+    background-color: rgb(198, 196, 196);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+    width: 190px;
+    height: 295px;
+    border-radius: 15px;
+    right: 5px;
+    
+}
+.pictur img{
+    width: 225px;
+    height: 225px;
+    border:50px;
+    background-color: rgb(240, 238, 238);
+    border-radius: 10px;
+}
+.Product-computer .pictur img:hover{
+    transform: scale(1.1); 
+}
+.background-img{
+    place-items: center;
+    justify-content: center;
+}
+.Product-alls{
+    right: 20px;
+}
+.model-computer ul{
+    margin-top: 10px;
+    list-style-type: none;
+    font-size: 15px;
+}
+.model-computer ul i{
+    margin-top: 10px;
+    color: rgb(237, 174, 67);
+}
+.model-computer ul li{
+    
+}
+.model-computer ul li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.total {
+    display: flex;
+    list-style-type: none;
+    gap: 75%;
+    margin-top: 10px;
+    right: 30px;
+}
+.total ul {
+    list-style-type: none;
+    color: rgb(247, 16, 16);
+}
+.icon i{
+    background-color: rgb(237, 53, 53);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    position: relative;
+    bottom:10px;
+    right: 14px;
+    color: rgb(0, 0, 0);
+}
+.icon i:hover{
+    background-color: #83858b;
+}
+.Product-allitem{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*-----------Stop-------------*/
+.stoppage{
+    background-color: #60656a;
+    height: 400px;
+    color: whitesmoke;
+}
+.logo-itemddd{
+    display: flex;
+    gap: 250px;
+   padding: 100px;
+}
+.logo-pictur ul{
+    list-style-type: none;
+    margin-top: 5px;
+    
+}
+.logo-pictur img{
+    width: 50px;
+    height: 50px;
+
+}
+.icon-about img{
+    width: 130px;
+    height: 30px;
+}
+.gh img{
+    margin-left: 35px;
+}
+
+.icon-about h3{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.About h3{
+    margin-top: 30px;
+}
+.About ul{
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+.Myaccount h3{
+    margin-top: 30px;
+}
+.Myaccount ul{
+    list-style-type: none;
+    margin-top: 5px;
+}
+.Install-Apph3{
+    margin-top: 50px;
+}
+.Install-App ul{
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+.backgroundProduct{
+    margin-top: 100px;
+    text-align: center;
+}
+.pic img{
+    
+    width: 100%;
+    margin-top: 100px;
+}
+
+/*---------------------Page 1-2---------------------*/
+.page1-2{
+    text-align: center;
+    padding-left: 44.2%;
+    display: flex;
+    gap: 10px;
+}
+.page1 ul a{
+    background-color: rgb(18, 75, 210);
+    width: 55px;
+    height: 50px;
+    border-radius:10px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    bottom:10px;
+    right: 10px;
+    color: rgb(251, 249, 249);  
+    margin-top: 60px;
+    text-decoration: unset;
+}
+.page1 ul a:hover{
+    background-color: #ec6009;
+
+}
+/*--------------contech----------------*/
+.contect{
+    display: flex;
+    margin-top: 170px;
+    gap: 200px;
+}
+.visit{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.visit h3{
+    font-size: 30px;
+}
+.mep img{
+    width: 700px;
+    height: 100%;
+}
+.mep img:hover{
+    transform: scale(1.1); 
+}
+.background-contect{
+    background-color: #c2cad2;
+    margin-top: 160px;
+    margin-left: 50px;
+    width: 700px;
+    height: 520px;
+    border-radius: 5px;
+
+}
+.We-love{
+    padding: 15px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.We-love h5{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.inp input{
+    width:450px;
+    border-radius: 0;
+    margin-top: 5px;
+}
+
+
+.inp4 input{
+    width:450px;
+    height: 200px;
+    border-radius: 0;
+}
+.btnn button{
+    background-color: #195fe0;
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+}
+.btnn button:hover{
+    background-color: #ec6009;
+}
+.contact-allls{
+    display: flex;
+    gap: 400px;
+}
+.male{
+    margin-top: 160px;
+}
+.male img{
+    display: flex;
+    width: 80px;
+    height: 90px;
+   margin-top: 10px;
+    border-radius: 50%;
+    background-color: #3b71dc;
+}
+.male img:hover{
+    transform: scale(1.1);
+}
+.bkk{
+    background-color: rgb(251, 249, 249);
+    height: 100px;
+}
+/*----------Shoppp------------*/
+.shop{
+    background-color: #83858b;
+    height: 420px;
+    margin-top: 100px;
+    margin-left: 60px;
+    width: 1400px;
+   
+}
+.bck-font{
+    background-color: #195fe0;
+    height: 50px;
+    place-items: center;
+    list-style-type: none;
+    gap: 180px;
+    justify-content: center;
+}
+.bck-font li:hover{
+    background-color: #e33232;
+}
+.remove{
+    display: flex;
+    margin-top: 10px;
+    gap: 170px;
+    justify-content: center;
+    place-items: center;
+}
+.remove  img{
+    width: 80px;
+    height: 80px;
+}
+.remove  img:hover{
+    transform: scale(1.1);
+}
+.remove input{
+    width: 80px;
+    height: 30px;
+}
+.remove li{
+    font-size: 30px;
+}
+.remove p{
+    color: #e33232;
+}
+.bck-font {
+    display: flex;
+}
+.vb{
+    background-color: rgb(251, 249, 249);
+    height: 100px;
+}
+/*-------------Contach uss------------*/
+.contactus{
+    text-align: center;
+    margin-top: 100px;
+}
+.contact-icon{
+    margin-top: 100px;
+    display: flex;
+    gap: 20px;
+    margin-left: 160px;
+    place-items: center;
+}
+.contact-icon img{
+    width:40px;
+    height: 40px;
+    place-items: center;
+}
+.contact-icon img:hover{
+    transform: scale(1.1);
+}
+.box{
+    margin-left: 160px;
+    background-color: #60656a;
+    height: 2px;
+    margin-right:160px;
+    margin-top: 10px;
+}
+.background-Phone{
+    background-color: #c2cad2;
+    height: 150px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 50px;
+}
+.icon-phone{
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.Phone1 img{
+    place-items: center;
+}
+
+.leak-phone ul li{
+  background: #feffff;
+  border: #e33232;
+  width: 190px;
+  height: 40px;
+  list-style-type: none;
+  margin-top: 10px;
+  place-items: center;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+ 
+}
+.Phone1 img{
+    width: 95px;
+    height: 95px;
+    margin-top: 30px;
+}
+.north p{
+    margin-top: 10px;
+}
+
+
+
+.background-Phone2{
+    background-color: #c2cad2;
+    height: 150px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 50px;
+}
+.icon-phone2{
+    display: flex;
+    place-items: center;
+    
+    gap: 150px;
+    margin-left: 150px;
+}
+.Phone12 img{
+    place-items: center;
+}
+
+.leak-phone2 ul li{
+  background: #feffff;
+  border: #e33232;
+  width: 250px;
+  height: 40px;
+  list-style-type: none;
+  margin-top: 10px;
+  place-items: center;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+ 
+}
+.Phone12 img{
+    width: 95px;
+    height: 95px;
+    margin-top: 30px;
+}
+/*------333--------*/
+.background-Phone3{
+    background-color: #c2cad2;
+    height: 300px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 50px;
+}
+.icon-phone3{
+    display: flex;
+    place-items: center;
+    gap: 150px;
+    margin-left: 150px;
+}
+.Phone13 img{
+    place-items: center;
+}
+.Phone13 img{
+    width: 95px;
+    height: 95px;
+    margin-top: 30px;
+}
+.Phone13 ul li{
+    list-style-type: none;
+    font-size: 20px;
+   margin-right: 20px;
+   margin-top: 10px;
+}
+.Google img{
+    width: 700px;
+    height: 300px;
+}
+.Google img:hover{
+    transform: scale(1.1);
+}
+/*------------444444444--------------------*/
+.background-Phone4{
+    background-color: #c2cad2;
+    height: 320px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 50px;
+  
+}
+.input-all {
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    gap: 5px;
+    margin-top: 20px;
+    padding: 20px;
+}
+.name1 input{
+    border-radius: 0;
+    margin-top: 10px;
+   
+}
+.message input{
+    width: 650px;
+    height: 170px;
+    border-radius: 0;
+    margin-top: 10px;
+}
+.png{
+    display: flex;
+    margin-left: 550px;
+    gap: 300px;
+    place-items: center;
+}
+.rubpng img{
+    width: 31px;
+    height: 31px;
+}
+.rubpng img:hover{
+    transform: scale(1.1);
+}
+.btn4 button{
+    background-color: #195fe0;
+    color: #dfdfe2;
+}
+/*---------stop------------*/
+.rung{
+    text-align: center;
+    margin-top: 10px;
+}
+.rung img{
+    width: 31px;
+    height: 31px;
+}
+.rung img:hover{
+    transform: scale(1.1);
+}
+/*-----------------homeeeeeeeeeee------------------*/
+.logo img{
+    width: 60px;
+    height: 60px;
+ 
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    place-items: center;
+  
+    gap: 150px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-left: 85px;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+    position: relative;
+    margin-left: 85px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+.dropdown {
+    position: relative;
+    margin-top: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 150px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.dropdown-content a:hover {
+    background-color: #575757;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*------------------------alll-i con----------------------------*/
+.all-ico{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    place-items: center;
+}
+.icoon a li{
+    font-size: 23px;
+    gap: 30px;
+    
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 2px 2px;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 350px;
+}
+
+.search-container input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 25px;
+   
+}
+
+.search-container button {
+    border: none;
+    outline: none;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 10px;
+    margin-left: 10px;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+    background-color: #0056b3;
+}
+
+main {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.content div {
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+
+/*----------------------------------------------------*/
+.lgo img{
+   margin-top: 80px;
+}
+
+.lo{
+    margin-top: 100px;
+    background-color: #101010;
+    height: 60px;
+    margin-left: 110px;
+    margin-right: 110px;
+    place-items: center;
+    justify-content: center;
+    display: flex;
+}
+.ppd{
+    display: flex;
+    gap: 20px;
+}
+.ppd h2{
+    color: whitesmoke;
+}
+.all-itempi{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 110px;
+    gap: 40px;
+}
+.picc {
+   
+    place-items: center;
+    justify-content: center;
+    
+}
+.picc img{
+    width: 200px;
+    height: 370px;
+    border-radius: 5px;
+}
+.bacck{
+   background-color: #e9eef2;
+    height: 370px;
+    place-items: center;
+    width: 250px;
+    border-radius: 5px;
+}
+.bacck img{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+.pee{
+  margin-top: 15px;
+}
+.pee p{
+    font-size: 14px;
+}
+.peess{
+    margin-top: 35px;
+    display: flex;
+   gap: 138px;
+   color: red;
+}
+.productpi{
+    display: flex;
+    gap: 20px;
+}
+.st{
+    color: rgb(235, 180, 28);
+    display: flex;
+    gap: 5px;
+}
+.instock {
+    display: flex;
+    gap: 55px;
+    color: #45a049;
+}
+.img img{
+    
+    transform: scale(1.1);
+}
+
+
+.bvc img{
+    margin-top: 90px;
+    justify-content: center;
+    place-items: center;
+    margin-left: 110px;
+    width:1300px;
+    margin-right: 110px;
+}
+.page-back h5{
+    justify-content: center;
+    place-items: center;
+    display: flex;
+    margin-top: 50px;
+   background: #007BFF;
+   height: 45px;
+   width: 50px;
+   border-radius: 10px;
+   font-size: 25px;
+   color: whitesmoke;
+   
+   
+}
+.page-all{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+/*-----------modell-----------*/
+.modell img{
+    justify-content: center;
+    place-items: center;
+    display: flex;
+    margin-left: 110px;
+    width: 1300px;
+    margin-top: 70px;
+}
+
+/*----------------------singe---------------------*/
+.bacck-sign{
+    background-color: #181819;
+    margin-top: 50px;
+    height:530px;
+}
+.search input{
+    width: 300px;
+    height: 40px;
+}
+.search button{
+    color: whitesmoke;
+    width: 120px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: #195fe0;
+}
+
+
+.sig-all{
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    gap: 450px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sign {
+    margin-top: 70px;
+    color: whitesmoke;
+}
+.search{
+    margin-top: 70px;
+}
+.dis{
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    gap: 35px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+.In-all{
+    margin-top: 35px;
+    color: whitesmoke;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.about1{
+    margin-top: 30px;
+}
+.about1 ul li{
+    list-style-type: none;
+    margin-top: 5px; 
+}
+.bxx{
+  margin-top: 25px;
+  background-color: whitesmoke;  
+  margin-left: 120px;
+  margin-right: 120px;
+  height: 1px;
+}
+.icon-all{
+    display: flex;
+    gap: 405px;
+    justify-content: center;
+    place-items: center;
+    margin-top: 15px;
+}
+.pic1 img{
+    width: 30px;
+    height: 30px;
+}
+.pic3{
+    color: whitesmoke;
+}
+/*------------------follow-------------------*/
+.follow{
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 50px;
+   
+}
+ .follow-all{
+    margin-left: 110px;
+    margin-right: 110px;
+    display: flex;
+    gap: 50px;
+}
+.follow-pic img{
+    width: 220px;
+    height: 200px;
+    margin-top: 20px;
+}
+.follow-pic p{
+    margin-top: 10px;
+}
+.dis-follow{
+    display: flex;
+   
+}
+/*------------------------PRODUCTS COMPUTER ALL----------------------*/
+/*------------------------PRODUCTS COMPUTER ALL----------------------*/
+/*------------------------PRODUCTS COMPUTER ALL----------------------*/
+
+
+
+.navbar .icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .navbar .search-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .navbar .search-bar {
+    padding: 5px;
+    border: none;
+    outline: none;
+  }
+  
+  .navbar .search-btn {
+    
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .navbar .search-btn:hover {
+    background-color: #5735cc;
+  }
+  .si{
+    display: flex;
+    gap: 28px;
+  }
+  .si i{
+    font-size: 25px;
+    
+  }
+  
+  .navbar .shop-icon:hover {
+    color: #6b4cff;
+  }
+  .icons{
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+   
+  }
+  
+ /*-------------------------------------Services-------------------------------*/
+.is p{
+    color: whitesmoke;
+}
+ .product11 {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    margin-left: 110px;
+    margin-right: 110px;
+    
+}
+.showW {
+    background-color: #007bff;
+    color: rgb(3, 3, 3);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.show {
+    background-color: #d1d6db;
+    color: rgb(18, 18, 18);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.show:hover {
+    background-color: #0056b3;
+}
+
+a {
+    text-decoration: none; /* លុប underline */
+    color: inherit;
+}
+
+ul {
+    list-style: none; /* លុប bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sivi-all{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    margin-left: 110px;
+    margin-right: 110px;
+    
+}
+
+.baak-all{
+    background-color: #e0d4d4;
+    width: 420px;
+    height: 400px;
+    place-items: center;
+    justify-content: center;
+    place-items: center;
+    border-radius: 10px;
+   
+}
+.si-img img{
+    width: 400px;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.si-img h2{
+    margin-top: 20px;
+    justify-content: center;
+    place-items: center;
+    display: flex;
+}
+
+
+
+/*-------------------Total Shop-------------------*/
+
+
+/*single product*/
+#prodetails{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+#prodetails .single-pro-image{
+    width: 30%;
+    margin-right: 50px;
+    background-color: #dce2e9;
+    border-radius: 10px;
+
+}
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eaedf0;
+    border-radius: 10px;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+#prodetails .single-pro-details{
+    width: 50%;
+    padding-top: 30px;
+}
+#prodetails .single-pro-details h4{
+    padding: 40px 0 20px 0;
+}
+#prodetails .single-pro-details h2{
+    font-size: 26px;
+}
+#prodetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+#prodetails .single-pro-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+
+}
+#prodetails .single-pro-details input:focus{
+    outline: none;
+}
+#prodetails .single-pro-details button{
+    background: #0b82ea;
+    color: #fff;
+    width: 500px;
+    height: 50px;
+}
+#prodetails .single-pro-details button:hover{
+    background-color: #444;
+}
+#prodetails .single-pro-details span{
+    line-height: 25px;
+}
+.single-pro-details{
+    margin-top: 20px;
+    justify-content: center;
+    margin-left: 20px;
+}
+.md{
+    margin-top: 40px;
+}
+.money{
+    margin-top: 20px;
+    color: red;
+}
+.to{
+    margin-top: 20px;
+}
+.pr{
+    margin-top: 20px;
+}
+.nameee{
+    margin-top: 20px;
+}
+</style>
+<body>
+  <header>
+    <div class="logo">
+      <img src="C:\Users\as\Downloads\pngwing.com - 2024-11-29T235431.228.png" >
+    </div>
+    <nav>
+        <a href="#home">HOME</a>
+        <div class="dropdown">
+            <a href="Productweb2.html">PRODUCTS</a>
+            <div class="dropdown-content">
+                <a href="Productleptop.html">Leptop</a>
+                <a href="productmuos.html">Mouse</a>
+                <a href="productkeybord.html">Key baord</a>
+                <a href="produtkhesmonitor.html">Corsair Gaming PC</a>
+                <a href="productpower.html">Power supply</a>
+                <a href="productram.html">Ram</a>
+                <a href="productbord.html">Motherboard</a>
+            </div>
+        </div>
+        <a href="Servicse22.html">SERVICES</a>
+        <a href="About22.html">ABOUT</a>
+        <a href="gg.html">CONTACT</a>
+    </nav>
+    <div class="icons">
+      <div class="search-container">
+        <input type="text" placeholder="Search..." class="search-bar">
+        <button class="search-btn">&#128269;</button>
+      </div>
+      <div class="si">
+        <i class="fa-brands fa-shopify"></i>
+        
+      <!--<i class="fa-brands fa-shopify"></i>-->
+    </div>
+    </div>
+</header>
+
+
+
+<!----Main body--->
+<div class="pic">
+    <img src=>
+</div>
+
+<section id="prodetails" class="section-p1">
+    <div class="single-pro-image">
+        <img src="C:\Users\as\Desktop\pictur Website\r1pngwing.com (73).png" width="100%" id="mainimg" alt="">
+        
+        <div class="small-img-group">
+            <div class="small-img-col">
+                <img src="C:\Users\as\Desktop\pictur Website\r1pngwing.com (73).png" width="100%" class="smallimg" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="C:\Users\as\Desktop\pictur Website\supply\shrog11.png" width="100%" class="smallimg" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="C:\Users\as\Desktop\pictur Website\supply\shoprog33.png" width="100%" class="smallimg" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="C:\Users\as\Desktop\pictur Website\supply\shoprog44.png" width="100%" class="smallimg" alt="">
+            </div>
+
+        </div> 
+
+    </div>
+
+    <div class="single-pro-details">
+        <div class="mdd">
+        <h1>Home : Computer</h1>
+        </div>
+        <div class="md">
+        <h2>MSI Katana A15 AI B8VG-430US 15.6" Gaming Laptop </h2>
+        </div>
+        <div class="money">
+        <h2>TOTAL: $5.399.00</h2>
+        </div>
+        <div class="to">
+        <input type="number" value="1">
+        <button class="normal">NOTIFY ME</button>
+        </div>
+        <div class="pr">
+        <h2>Product Details Computer</h2>
+        </div>
+        <div class="nameee">
+            
+                <li>Windows 11 Home</li>
+                <li>Gigabit LAN, Wireless LAN WiFi 6E (802.11ax), Bluetooth 5.3</li>
+                <li>15.6" QHD WVA Anti-Glare Display</li>
+                <li>1TB PCIe Gen4 x4 NVMe M.2 SSD</li>
+                <li>NVIDIA GeForce RTX 4070 Graphics Card</li>
+                <li>16GB DDR5-5600 RAM</li>
+                <li>AMD Ryzen 7 8845HS (3.8GHz) Processor</li>
+                <li>3 cell, 53.5 Whr</li>
+                <li>MSI Essential Backpack</li>
+                <li>2 Years Warranty</li>
+                <li>Copilot key feature availability varies by market, see [aka.ms/Keysupport]</li>
+            
+        </div>
+    </div>
+    
+</section>
+
+
+<script>
+    var mainimg = document.getElementById("mainimg");
+    var smallimg = document.getElementsByClassName("smallimg");
+
+    smallimg[0].onclick = function(){
+        mainimg.src = smallimg[0].src;
+    }
+    smallimg[1].onclick = function(){
+        mainimg.src = smallimg[1].src;
+    }
+    smallimg[2].onclick = function(){
+        mainimg.src = smallimg[2].src;
+    }
+    smallimg[3].onclick = function(){
+        mainimg.src = smallimg[3].src;
+    }
+</script>
+
+
+<div class="modell">
+    <img src="C:\Users\as\Desktop\pictur Website\xx.png">
+  </div>
+  
+  <div class="all-itempi">
+    <a href="#"><div class="picc">
+      <img src="C:\Users\as\Desktop\pictur Website\222025-01-17 105648.png">
+    </div></a>
+    <div class="productpi">
+      <div class="bacck">
+        <div class="img">
+          <img src="C:\Users\as\Desktop\pictur Website\ykk.png">
+        </div>
+        <div class="star">
+  
+          <div class="instock">
+            <div class="st">
+              <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="instock">
+                        <p>Instock</p>
+                      </div>     
+        </div>
+  
+        <div class="pee">
+          <p>MSI CBORG 14 A13VF 046   <br>
+            GMING LAPTOP COMPUTER<br>
+            
+            All-In-On...</p>
+          <div class="peess">
+        <h4>$499.00</h4>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div class="bacck">
+      <div class="img">
+        <img src="C:\Users\as\Desktop\pictur Website\wepngwing.com (73).png">
+      </div>
+      <div class="star">
+        <div class="instock">
+          <div class="st">
+            <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="instock">
+                      <p>Instock</p>
+                    </div>     
+      </div>
+      <div class="pee">
+        <p>MSI CYBORG 14 A13VF 046   <br>
+          GMING LAPTOP COMPUTER<br>
+          All-In-On...</p>
+        <div class="peess">
+      <h4>$499.00</h4>
+      <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+  </div>
+    </div>
+  </div>
+  <div class="bacck">
+    <div class="img">
+      <img src="C:\Users\as\Desktop\pictur Website\2pngwing.com (73).png">
+    </div>
+    <div class="star">
+      <div class="instock">
+        <div class="st">
+          <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="instock">
+                    <p>Instock</p>
+                  </div>     
+    </div>
+    <div class="pee">
+    <p>MSI CYBORG 15 A13VFK 886  <br>
+      GMING LAPTOP COMPUTER<br>
+      All-In-On...</p>
+      <div class="peess">
+    <h4>$499.00</h4>
+    <i class="fa-solid fa-cart-shopping"></i>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="bacck">
+    <div class="img">
+      <img src="C:\Users\as\Desktop\pictur Website\14pngwing.com (73).png">
+    </div>
+    <div class="star">
+      <div class="instock">
+        <div class="st">
+          <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="instock">
+                    <p>Instock</p>
+                  </div>     
+    </div>
+              <div class="pee">
+                <p>MSI KATANA A15 AI  <br>
+                  B8VG-430US 15.6 <br>
+                  GMING LEPTOP COMPUTER</p>
+                  <div class="peess">
+                <h4>$989.99</h4>
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+              </div>
+  </div>
+  </div>
+    </div>
+  </div>
+  
+  
+  
+  <!--<div class="lo">
+    <div class="ppd">
+      <img src="s">
+      <p>own it now, up to 6 months interest free learn more</p>
+    </div>-->
+  </div>
+  <div class="all-itempi">
+    <a href="#"><div class="picc">
+      <img src="C:\Users\as\Desktop\pictur Website\11Screenshot 2025-01-17 105648.png">
+    </div></a>
+    <div class="productpi">
+      <div class="bacck">
+        <div class="img">
+          <img src="C:\Users\as\Desktop\pictur Website\r1pngwing.com (73).png">
+        </div>
+        <div class="star">
+          <div class="instock">
+            <div class="st">
+              <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="instock">
+                        <p>Instock</p>
+                      </div>     
+        </div>
+        <div class="pee">
+    <p>ROG STRIX G16 (2024) G614<br>
+      GAMING LEPTOP <br>
+      All-In-On...</p>
+      <div class="peess">
+        <h4>$499.00</h4>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+  </div>
+      </div>
+    </div>
+    <div class="bacck">
+      <div class="img">
+        <img src="C:\Users\as\Desktop\pictur Website\rg222pngwing.com (73).png">
+      </div>
+      <div class="star">
+        <div class="instock">
+          <div class="st">
+            <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="instock">
+                      <p>Instock</p>
+                    </div>     
+      </div>
+      <div class="pee">
+      <p>ASUS ROG ZEPHYRUS G16 <br>
+        GA605WI-QR098W-ECLIPE<br>
+        All-In-On...</p>
+        <div class="peess">
+          <h4>$499.00</h4>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+  </div>
+    </div>
+  </div>
+  <div class="bacck">
+    <div class="img">
+      <img src="C:\Users\as\Desktop\pictur Website\RG33pngwing.com (73).png">
+    </div>
+    <div class="star">
+      <div class="instock">
+        <div class="st">
+          <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="instock">
+                    <p>Instock</p>
+                  </div>     
+    </div>
+    <div class="pee">
+    <p>ROG FLOW Z13 GZ301VU-
+      <br>
+      MU002W COMPUTER <br>
+      All-In-On...</p>
+      <div class="peess">
+        <h4>$499.00</h4>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+  </div>
+  </div>
+  </div>
+  <div class="bacck">
+    <div class="img">
+      <img src="C:\Users\as\Desktop\pictur Website\RG444pngwing.com (73).png">
+    </div>
+    <div class="star">
+      <div class="instock">
+        <div class="st">
+          <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="instock">
+                    <p>Instock</p>
+                  </div>     
+    </div>
+    <div class="pee">
+    <p>ASUS ROG Zephyrus M16 <br>
+      GU604VZ-N4031W  <br>
+      All-In-On...</p>
+      <div class="peess">
+    <h4>$499.00</h4>
+    <i class="fa-solid fa-cart-shopping"></i>
+  </div>
+  </div>
+  </div>
+  </div>
+    </div>
+  </div>
+  
+  
+  <!--<div class="lo">
+    <div class="ppd">
+      <img src="s">
+      <p>own it now, up to 6 months interest free learn more</p>
+    </div>-->
+  <div class="all-itempi">
+    <a href="#"><div class="picc">
+      <img src="C:\Users\as\Desktop\pictur Website\44Screenshot 2025-01-17 105648.png">
+      
+    </div></a>
+    <div class="productpi">
+      <div class="bacck">
+        <div class="img">
+          <img src="C:\Users\as\Desktop\pictur Website\ASUS1pngwing.com (73).png">
+        </div>
+        <div class="star">
+          <div class="instock">
+            <div class="st">
+              <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <div class="instock">
+                        <p>Instock</p>
+                      </div>     
+        </div>
+        <div class="pee">
+    <p>ASUS ExpertBook B1 (B1403) <br>
+      GAMING COMPUTER<br>
+      All-In-On...</p>
+      <div class="peess">
+        <h4>$499.00</h4>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+  </div>
+      </div>
+    </div>
+    <div class="bacck">
+      <div class="img">
+        <img src="C:\Users\as\Desktop\pictur Website\ASIS2pngwing.com (73).png">
+      </div>
+      <div class="star">
+        <div class="instock">
+          <div class="st">
+            <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="instock">
+                      <p>Instock</p>
+                    </div>     
+      </div>
+      <div class="pee">
+      <p>ASUS Chromebook <br>
+        CM14 (CM1402C) <br>
+        All-In-On...</p>
+        <div class="peess">
+          <h4>$499.00</h4>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+  </div>
+    </div>
+  </div>
+  <div class="bacck">
+    <div class="img">
+      <img src="C:\Users\as\Desktop\pictur Website\ASUS33pngwing.com (73).png">
+    </div>
+    <div class="star">
+      <div class="instock">
+        <div class="st">
+          <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="instock">
+                    <p>Instock</p>
+                  </div>     
+    </div>
+    <div class="pee">
+    <p>ASUS Chromebook  <br>
+      CR1 (CR1100) <br>
+      All-In-On...</p>
+      <div class="peess">
+        <h4>$499.00</h4>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+  </div>
+  </div>
+  </div>
+  <div class="bacck">
+    <div class="img">
+      <img src="C:\Users\as\Desktop\pictur Website\ASUS4pngwing.com (73).png">
+    </div>
+    <div class="star">
+      <div class="instock">
+        <div class="st">
+          <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="instock">
+                    <p>Instock</p>
+                  </div>     
+    </div>
+    <div class="pee">
+    <p>Asus VivoBook 14  <br>
+      X1405VA-LY303W<br>
+      All-In-On...</p>
+      <div class="peess">
+    <h4>$499.00</h4>
+    <i class="fa-solid fa-cart-shopping"></i>
+  </div>
+  </div>
+  </div>
+  </div>
+    </div>
+  </div>
+  
+<!---------model---------->
+<div class="modell">
+    <img src="C:\Users\as\Desktop\pictur Website\Screenshot 2025-01-21 220256.png">
+  </div>
+  <!-----------------------followw------------------->
+  <div class="follow">
+    <h3>Follow us on Instagram for News, Offers & More</h3>
+  </div>
+  
+  <div class="follow-all">
+    <div class="follow-pic">
+      <img src="C:\Users\as\Desktop\pictur Website\Screenshot 2025-01-22 103902.png">
+      <P>If you’ve recently made a <br>desktop PC or laptop <br>
+        purchase, you might want to <br>
+        consider adding peripherals to <br>
+        enhance your home office <br>
+        setup, your gaming rig, or your <br>
+        business workspace...</P>
+    </div>
+    <div class="follow-pic">
+      <img src="C:\Users\as\Desktop\pictur Website\Screenshot 2025-01-22 104925.png">
+      <P>If you’ve recently made a <br>desktop PC or laptop <br>
+        purchase, you might want to <br>
+        consider adding peripherals to <br>
+        enhance your home office <br>
+        setup, your gaming rig, or your <br>
+        business workspace...</P>
+    </div>
+    <div class="follow-pic">
+      <img src="C:\Users\as\Desktop\pictur Website\Screenshot 2025-01-22 105028.png">
+      <P>If you’ve recently made a <br>desktop PC or laptop <br>
+        purchase, you might want to <br>
+        consider adding peripherals to <br>
+        enhance your home office <br>
+        setup, your gaming rig, or your <br>
+        business workspace...</P>
+    </div>
+    <div class="follow-pic">
+      <img src="C:\Users\as\Desktop\pictur Website\Screenshot 2025-01-22 105133.png">
+      <P>If you’ve recently made a <br>desktop PC or laptop <br>
+        purchase, you might want to <br>
+        consider adding peripherals to <br>
+        enhance your home office <br>
+        setup, your gaming rig, or your <br>
+        business workspace...</P>
+    </div>
+    <div class="follow-pic">
+      <img src="C:\Users\as\Desktop\pictur Website\Screenshot 2025-01-22 105316.png">
+      <P>If you’ve recently made a <br>desktop PC or laptop <br>
+        purchase, you might want to <br>
+        consider adding peripherals to <br>
+        enhance your home office <br>
+        setup, your gaming rig, or your <br>
+        business workspace...</P>
+    </div>
+    
+  </div>
+  
+  
+  
+  <!----------------singe---------------------->
+  <div class="bacck-sign">
+    <div class="sig-all">
+      <div class="sign">
+        <h1>Sign Up To Our Newsletter.</h1>
+        <p>Be the first hear about the latest offers.</p>
+      </div>
+        <div class="search">
+          <input type="text" placeholder="Your Email...">
+          <button>Subscriber</button>
+      </div>
+    </div>
+  <div class="dis">
+  <div class="In-all">
+    <div class="inform">
+      <h4>Information</h4>
+    </div>
+    <div class="about1">
+      <ul>
+        <li>About Us</li>
+        <li>About Zip</li>
+        <li>Privacy Policy</li>
+        <li>Search</li>
+        <li>Terms</li>
+        <li>Orders and Returns</li>
+        <li>Contact Us</li>
+        <li>Advanced Search</li>
+        <li>Newsletter Subscription</li>
+      </ul>
+    </div>
+  </div>
+  <div class="In-all">
+    <div class="inform">
+      <h4>Information</h4>
+    </div>
+    <div class="about1">
+      <ul>
+        <li>CPUS</li>
+        <li>Hard Drives (Internal)
+        </li>
+        <li>Graphic Cards</li>
+        <li>Keyboards / Mice</li>
+        <li>Cases / Power Supplies / Cooling</li>
+        <li>RAM (Memory)
+        </li>
+        <li>Software</li>
+        <li>Speakers / Headsets</li>
+        <li>Motherboards</li>
+      </ul>
+    </div>
+  </div>
+  <div class="In-all">
+    <div class="inform">
+      <h4>Information</h4>
+    </div>
+    <div class="about1">
+      <ul>
+        <li>Custom PCs</li>
+        <li>Servers</li>
+        <li>MSI All-In-One PCs
+        </li>
+        <li>HP/Compaq PCs
+        </li>
+        <li>ASUS PCs
+        </li>
+        <li>Tecs PCs</li>
+        <li>About Us</li>
+        <li>About Us</li>
+        <li>About Us</li>
+      </ul>
+    </div>
+  </div>
+  <div class="In-all">
+    <div class="inform">
+      <h4>Information</h4>
+    </div>
+    <div class="about1">
+      <ul>
+        <li>Evryday Use Notebooks
+        </li>
+        <li>MSI Workstation Series
+        </li>
+        <li>MSI Prestige Series
+        </li>
+        <li>Tablets and Pads</li>
+        <li>Netbooks</li>
+        <li>Infinity Gaming Notebooks</li>
+        <li>About Us</li>
+        <li>About Us</li>
+        <li>About Us</li>
+      </ul>
+    </div>
+  </div>
+  <div class="In-all">
+    <div class="inform">
+      <h4>Information</h4>
+    </div>
+    <div class="about1">
+      <ul>
+        <li>Address: 1234 Street Adress City Address, 1234</li>
+        <li>Phones: (00) 1234 5678</li>
+        <li>We are open: Monday-Thursday: 9:00 AM - 5:30 PM</li>
+        <li>Friday: 9:00 AM - 6:00 PM</li>
+        <li>Saturday: 11:00 AM - 5:00 PM</li>
+        <li>E-mail: shop@email.com</li>
+        <li>About Us</li>
+        <li>About Us</li>
+        <li>About Us</li>
+      </ul>
+    </div>
+  </div>
+  </div>
+  
+  <div class="bxx">
+    <p></p>
+  </div>
+  
+  <div class="icon-all">
+    <div class="pic1">
+      <img src="C:\Users\as\Desktop\pictur Website\pngwing.com - 2025-01-04T163431.479.png">
+      <img src="C:\Users\as\Desktop\pictur Website\pngwing.com - 2025-01-04T163308.604.png">
+      <img src="C:\Users\as\Desktop\pictur Website\pngwing.com (78).png">
+      <img src="C:\Users\as\Desktop\pictur Website\pngwing.com (74).png">
+    </div>
+    <div class="pic2">
+      <img src="C:\Users\as\Downloads\pay.png">
+     
+    </div>
+    <div class="pic3">
+      <p>Feackbookpage</p>
+    </div>
+  </div>
+  
+  </div>
+  
+  
+  </body>
+  </html>
+  
+  
+
